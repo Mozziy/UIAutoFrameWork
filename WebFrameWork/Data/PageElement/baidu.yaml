@@ -1,0 +1,11 @@
+# Baidu项目
+
+# 首页搜索功能
+MainPage:
+  input_loc: {id: kw}
+  click_loc: {id: su}
+  search_sum: {xpath: '//*[@class="nums_text"]'}
+
+
+
+

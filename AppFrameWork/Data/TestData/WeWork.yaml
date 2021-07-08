@@ -1,0 +1,9 @@
+add_number:
+  name: random_name
+  account: random_phone_6
+  alias: random_name_e
+  phone: random_phone
+  tele: random_phone_8
+  email: random_email
+  address: random_address
+  duty: random_job

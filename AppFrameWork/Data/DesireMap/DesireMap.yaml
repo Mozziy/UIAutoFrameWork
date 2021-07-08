@@ -1,0 +1,48 @@
+Google:
+  url: http://127.0.0.1:4723/wd/hub
+  DesireMap:
+    platformName: android
+    platformVersion: '11.0'
+    deviceName: emulator-5554
+    appPackage: com.android.chrome
+    appActivity: com.google.android.apps.chrome.Main
+    noReset: True
+    donStopAppOnRest: True
+
+
+XueQiu:
+  url: http://127.0.0.1:4723/wd/hub
+  DesireMap:
+    platformName: android
+    platformVersion: '11.0'
+    deviceName: emulator-5554
+    appPackage: com.xueqiu.android
+    unicodeKeyboard: true
+    resetKeyboard: true
+    appActivity: .view.WelcomeActivityAlias
+    noReset: True
+    automationName: uiautomator2  # 默认的，可不添加
+
+
+DefaultBrowser:
+  url: http://127.0.0.1:4723/wd/hub
+  DesireMap:
+    platformName: android
+    platformVersion: '11.0'
+    unicodeKeyboard: True
+    resetKeyboard: True
+    browserName: Chrome
+    deviceName: emulator-5554
+    newCommandTimeout: 6000
+    noReset: True
+
+WeWork:
+  url: http://127.0.0.1:4723/wd/hub
+  DesireMap:
+    platformName: android
+    platformVersion: '11.0'
+    deviceName: emulator-5554
+    appPackage: com.tencent.wework
+    appActivity: .launch.LaunchSplashActivity
+    noReset: True
+    donStopAppOnRest: True

@@ -1,0 +1,7 @@
+testChromeBrowser:
+  value: webdriver
+
+testxueqiuBrowser:
+  phoneNumber: random_phone
+  phoneCode: random_phone_6
+

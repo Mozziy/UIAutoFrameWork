@@ -1,0 +1,29 @@
+Message:
+  workplace: {xpath: '//*[@text="工作台"]'}
+  contact: {xpath: '//*[@text="通讯录"]'}
+
+Workplace:
+  sign_in: {ANDROID_UIAUTOMATOR: 'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("打卡").instance(0));'}
+  Offsite_Punch: {xpath: '//*[@text="外出打卡"]'}
+  click_Punch: {xpath: '//*[contains(@text, "次外出")]'}
+
+
+Contact:
+  click_add: {ANDROID_UIAUTOMATOR: 'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("添加成员").instance(0));'}
+  click_hand: {xpath: '//*[@text="手动输入添加"]'}
+  name_send: {xpath: '//*[contains(@text, "姓名")]/..//*[@text="必填"]'}
+  account_send: {xpath: '//*[contains(@text, "帐号")]/..//*[@text="选填"]'}
+  alias_send: {xpath: '//*[contains(@text, "别名")]/..//*[@text="选填"]'}
+  click_sex: {xpath: '//*[contains(@text, "性别")]/..//*[@text="男"]'}
+  choice_sex: {xpath: '//*[contains(@text, "女")]'}
+  phone_send: {xpath: '//*[contains(@text, "手机")]/..//*[@text="手机号"]'}
+  tele_send: {xpath: '//*[contains(@text, "座机")]/..//*[@text="选填"]'}
+  email_send: {xpath: '//*[contains(@text, "邮箱")]/..//*[@text="选填"]'}
+  click_addre: {xpath: '//*[contains(@text, "地址")]/..//*[@text="选填"]'}
+  addre_send: {xpath: '//*[@resource-id="com.tencent.wework:id/js"]'}
+  clcik_ensu: {xpath: '//*[@resource-id="com.tencent.wework:id/igi"]'}
+  duty_send: {xpath: '//*[contains(@text, "职务")]/..//*[@text="选填"]'}
+  click_iden: {xpath: '//*[@text="普通成员"]'}
+  choice_iden: {xpath: '//*[@text="上级"]'}
+  click_save: {ANDROID_UIAUTOMATOR: 'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("保存").instance(0));'}
+

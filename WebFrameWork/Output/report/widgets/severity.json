@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ae9a47b72b269a25",
+  "name" : "test_research[selenium]",
+  "time" : {
+    "start" : 1617813431049,
+    "stop" : 1617813461215,
+    "duration" : 30166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a57ba9bc47302b4",
+  "name" : "test_research[元旦节]",
+  "time" : {
+    "start" : 1617813478342,
+    "stop" : 1617813491868,
+    "duration" : 13526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccbe4abd46e7d2c5",
+  "name" : "test_research[元宵节]",
+  "time" : {
+    "start" : 1617813461218,
+    "stop" : 1617813478339,
+    "duration" : 17121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,30 @@
+# 企业微信项目-页面元素
+
+login:
+  login_loc: {text: 企业登录}
+  register_loc: {text: 立即注册}
+
+
+addmember:
+  # url
+  url: https://work.weixin.qq.com/wework_admin/frame#index
+  # 点击添加按钮定位
+  add_btn_loc: {css: '[class*="ww_indexImg_AddMember"]'}
+  # 添加的成员输入框定位
+  add_nam_loc: {id: username}
+  # 成员英文名输入框定位
+  add_snam_loc: {id: memberAdd_english_name}
+  # id输入框定位
+  add_cid_loc: {xpath: '//*[@id="memberAdd_acctid"]'}
+  # 手机号输入框定位
+  add_phone_loc: {xpath: '//*[contains(@class, "ww_telInput_mainNumber")]'}
+  # 性别单选框定位
+  gender_loc: {css: '[name="gender"][value="2"]'}
+  # 保存按钮定位
+  save_btn_loc: {text: 保存}
+
+
+Contact:
+  member_list_loc: {css: '[class^="member_colRight_memberTable_tr"]'}
+
+

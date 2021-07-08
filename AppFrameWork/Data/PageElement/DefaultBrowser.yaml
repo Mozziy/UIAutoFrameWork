@@ -1,0 +1,14 @@
+
+Googlemainpage:
+  url: http://m.baidu.com
+  input_id: {id: index-kw}
+  button_id: {id: index-bn}
+
+
+snowballmainpage:
+  url: https://xueqiu.com
+  strong: {xpath: '//*[@class="AnonymousHome_mobile_base64-icon_1wp AnonymousHome_mobile_icon-lock_32_"]'}
+  phone_id: {id: phone-number}
+  code_id: {id: code}
+
+

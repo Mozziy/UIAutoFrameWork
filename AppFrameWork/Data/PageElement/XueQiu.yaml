@@ -1,0 +1,26 @@
+MainPage:
+  search_text: {xpath: '//*[@text="搜索股票/组合/用户/讨论"]'}
+  input_text: {id: com.xueqiu.android:id/search_input_text}
+  stock_search: {xpath: '//*[@text="BABA"]'}
+  stock_click: {xpath: '//*[@text="BABA"]'}
+  history_search: {xpath: "//*[@text='阿里巴巴' and @class='android.widget.TextView']"}
+  click_trade: {xpath: "//*[@text='交易']"}
+
+
+StockDetailPage:
+  choose_loc: {xpath: "//*[@text='加自选']"}
+  stock_price: {id: com.xueqiu.android:id/stock_current_price}
+  set_choose: {xpath: "//android.widget.RelativeLayout[5]/android.widget.ImageView"}
+  del_choose: {xpath: "//*[@text='删除自选']"}
+
+
+RegisterPage:
+  open_account: {xpath: "//*[@text='A股开户']"}
+  phone_number: {xpath: "//android.view.View[2]/android.widget.EditText"}
+  phone_code: {xpath: "//android.view.View[4]/android.widget.EditText"}
+  send_code: {xpath: "//*[@text='获取验证码']"}
+  click_open: {xpath: "//*[@text='立即开户']"}
+
+
+
+

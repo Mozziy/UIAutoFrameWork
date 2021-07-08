@@ -1,0 +1,76 @@
+{
+  "uid" : "5a57ba9bc47302b4",
+  "name" : "test_research[元旦节]",
+  "fullName" : "TestCase.Testbaidu.TestBaidu#test_research",
+  "historyId" : "6d747ba6ad84ccc625206c305583152c",
+  "time" : {
+    "start" : 1617813478342,
+    "stop" : 1617813491868,
+    "duration" : 13526
+  },
+  "description" : "测试搜索功能",
+  "descriptionHtml" : "<p>测试搜索功能</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1617813431008,
+      "stop" : 1617813431049,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "Testbaidu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBaidu"
+  }, {
+    "name" : "host",
+    "value" : "Albertz.local"
+  }, {
+    "name" : "thread",
+    "value" : "17804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.Testbaidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "value",
+    "value" : "'元旦节'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a57ba9bc47302b4.json",
+  "parameterValues" : [ "'元旦节'" ]
+}

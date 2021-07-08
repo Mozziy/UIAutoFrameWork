@@ -1,0 +1,22 @@
+MainPage:
+  click_input: {id: com.android.chrome:id/url_bar}
+  input_value: {cname: android.widget.EditText}
+  resource-id: {xpath: "//*[@resource-id='com.android.chrome:id/line_1' and @text='雪球']"}
+
+
+SearchPage:
+  content-desc: {xpath: '//*[@content-desc="雪球 - 聪明的投资者都在这里"]'}
+
+
+SnowBallMainPage:
+  content-desc: {xpath: '//*[@content-desc="点击下载App"]'}
+  resource-id: {xpath: "//*[@resource-id='com.android.chrome:id/infobar_close_button']"}
+  text_Download: {xpath: "//*[@text='Download']"}
+  text_cancel: {xpath: "//*[@text='Cancel']"}
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+# 企业微信测试数据
+
+login:
+  browser: chrome
+  url: https://work.weixin.qq.com/
+
+add_member:
+  cookies: [{'domain': '.work.weixin.qq.com', 'httpOnly': False, 'name': 'wwrtx.vid', 'path': '/', 'secure': False, 'value': '1688850365226775'}, {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.vst', 'path': '/', 'secure': False, 'value': 'En0hda_R_r4HJ1MhFx_ojkPiZkdG0lxQ8pVkxsFTdw5Z5bslGY6tyc51_gWa2AiAv_jxflSXLd6_T926CTc_Otx0KQ36XSkVIdx5bZBrGzdbdcA_y7DHibwnezLTd02wfyUs2qeY4A1j7isLiSWD46SKiTUh8M__3If3VvYPtkGRMZoLA_Ce4iAaDeTG0RxPeptF2fyEeGPffhQOJtBX0FwNuWPawD29U658wnA_XBwFYjoPZUMFK1F1x_EBYYXBtgkUf619bagrNHP5wlgocg'}, {'domain': '.work.weixin.qq.com', 'httpOnly': False, 'name': 'wxpay.vid', 'path': '/', 'secure': False, 'value': '1688850365226775'}, {'domain': '.work.weixin.qq.com', 'httpOnly': False, 'name': 'wxpay.corpid', 'path': '/', 'secure': False, 'value': '1970324972209299'}, {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.ref', 'path': '/', 'secure': False, 'value': 'direct'}, {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.ltype', 'path': '/', 'secure': False, 'value': '1'}, {'domain': '.work.weixin.qq.com', 'httpOnly': False, 'name': 'wwrtx.d2st', 'path': '/', 'secure': False, 'value': 'a5848478'}, {'domain': 'work.weixin.qq.com', 'expiry': 1609691634, 'httpOnly': True, 'name': 'ww_rtkey', 'path': '/', 'secure': False, 'value': '1q5th0j'}, {'domain': '.qq.com', 'expiry': 1609746504, 'httpOnly': False, 'name': '_gid', 'path': '/', 'secure': False, 'value': 'GA1.2.1060539497.1609660104'}, {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.refid', 'path': '/', 'secure': False, 'value': '13422797192898522'}, {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.sid', 'path': '/', 'secure': False, 'value': '2HgCpqLoiZaLNdtLTa2_sTa0mpDvMGt4BF3HCM7EV1JwoKPrp7TnYwiLn4nAMtx8'}, {'domain': '.qq.com', 'expiry': 1609660164, 'httpOnly': False, 'name': '_gat', 'path': '/', 'secure': False, 'value': '1'}, {'domain': '.qq.com', 'expiry': 1672732104, 'httpOnly': False, 'name': '_ga', 'path': '/', 'secure': False, 'value': 'GA1.2.967795871.1609660104'}, {'domain': '.work.weixin.qq.com', 'expiry': 1641196098, 'httpOnly': False, 'name': 'wwrtx.c_gdpr', 'path': '/', 'secure': False, 'value': '0'}, {'domain': '.work.weixin.qq.com', 'expiry': 1612252109, 'httpOnly': False, 'name': 'wwrtx.i18n_lan', 'path': '/', 'secure': False, 'value': 'zh'}]
+  add_nam_val: random_name
+  add_snam_val: random_name_e
+  add_cid_val: random_trxId_5
+  add_phone_no: random_phone
+
+
+
+
+

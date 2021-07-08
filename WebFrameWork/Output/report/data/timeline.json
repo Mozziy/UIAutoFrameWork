@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Albertz.local",
+    "children" : [ {
+      "name" : "17804-MainThread",
+      "children" : [ {
+        "name" : "test_research[selenium]",
+        "uid" : "ae9a47b72b269a25",
+        "parentUid" : "569d8ee75bc0eee774b6f6e638cc7cf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617813431049,
+          "stop" : 1617813461215,
+          "duration" : 30166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'selenium'" ]
+      }, {
+        "name" : "test_research[元宵节]",
+        "uid" : "ccbe4abd46e7d2c5",
+        "parentUid" : "569d8ee75bc0eee774b6f6e638cc7cf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617813461218,
+          "stop" : 1617813478339,
+          "duration" : 17121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'元宵节'" ]
+      }, {
+        "name" : "test_research[元旦节]",
+        "uid" : "5a57ba9bc47302b4",
+        "parentUid" : "569d8ee75bc0eee774b6f6e638cc7cf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617813478342,
+          "stop" : 1617813491868,
+          "duration" : 13526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'元旦节'" ]
+      } ],
+      "uid" : "569d8ee75bc0eee774b6f6e638cc7cf7"
+    } ],
+    "uid" : "1899066992ee21934d4a70079d5bdca7"
+  } ],
+  "name" : "timeline"
+}

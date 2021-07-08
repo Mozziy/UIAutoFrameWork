@@ -1,0 +1,13 @@
+# 百度项目测试数据
+
+search_function:
+  url: https://www.baidu.com/
+  browser: chrome
+  value1: selenium
+  value2: 元宵节
+  value3: 元旦节
+
+
+
+
+

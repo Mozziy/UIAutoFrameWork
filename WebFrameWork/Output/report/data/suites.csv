@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 08 00:37:41 CST 2021","Thu Apr 08 00:37:58 CST 2021","17121","TestCase","Testbaidu","TestBaidu","","","test_research[元宵节]","测试搜索功能"
+"passed","Thu Apr 08 00:37:11 CST 2021","Thu Apr 08 00:37:41 CST 2021","30166","TestCase","Testbaidu","TestBaidu","","","test_research[selenium]","测试搜索功能"
+"passed","Thu Apr 08 00:37:58 CST 2021","Thu Apr 08 00:38:11 CST 2021","13526","TestCase","Testbaidu","TestBaidu","","","test_research[元旦节]","测试搜索功能"

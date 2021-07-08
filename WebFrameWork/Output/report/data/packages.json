@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "TestCase.Testbaidu",
+    "children" : [ {
+      "name" : "test_research[selenium]",
+      "uid" : "ae9a47b72b269a25",
+      "parentUid" : "9ff9ebe019a1d5eb50956a448111099b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617813431049,
+        "stop" : 1617813461215,
+        "duration" : 30166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'selenium'" ]
+    }, {
+      "name" : "test_research[元宵节]",
+      "uid" : "ccbe4abd46e7d2c5",
+      "parentUid" : "9ff9ebe019a1d5eb50956a448111099b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617813461218,
+        "stop" : 1617813478339,
+        "duration" : 17121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'元宵节'" ]
+    }, {
+      "name" : "test_research[元旦节]",
+      "uid" : "5a57ba9bc47302b4",
+      "parentUid" : "9ff9ebe019a1d5eb50956a448111099b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617813478342,
+        "stop" : 1617813491868,
+        "duration" : 13526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'元旦节'" ]
+    } ],
+    "uid" : "TestCase.Testbaidu"
+  } ],
+  "name" : "packages"
+}
