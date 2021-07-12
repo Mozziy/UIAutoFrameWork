@@ -6,31 +6,10 @@
 @file: TestWeWork
 @time: 2020/12/26 22:03
 @desc:
-              幸运女神保佑        永无BUG
- *
- *                      .::::.
- *                    .::::::::.
- *                   :::::::::::
- *                ..:::::::::::'
- *             '::::::::::::'
- *               .::::::::::
- *          '::::::::::::::..
- *               ..::::::::::::.
- *             ``::::::::::::::::
- *              ::::``:::::::::'        .:::.
- *             ::::'   ':::::'       .::::::::.
- *           .::::'      ::::     .:::::::'::::.
- *          .:::'       :::::  .:::::::::' ':::::.
- *         .::'        :::::.:::::::::'      ':::::.
- *        .::'         ::::::::::::::'         ``::::.
- *    ...:::           ::::::::::::'              ``::.
- *   ```` ':.          ':::::::::'                  ::::..
- *                      '.:::::'                    ':'````..
 """
 
 from WebFrameWork.BasePage.Constant import Constants
 from WebFrameWork.PageObject.Wework.AddMemberPage import AddMemberPage
-
 from WebFrameWork.PageObject.Wework.LoginPage import LoginPage
 
 
@@ -67,8 +46,8 @@ class TestWeWork:
         add_cid_val = data['add_cid_val']
         add_phone_no = data['add_phone_no']
         res = AddMemberPage().add_member(cookies, add_nam_val, add_snam_val, add_cid_val, add_phone_no)
-        print(res)
-        assert res == 19
+        # print(res)
+        assert res == 19  # 不够灵活，可以先获取成员列表并统计数量n，添加后的数量m==n+1
 
 
 

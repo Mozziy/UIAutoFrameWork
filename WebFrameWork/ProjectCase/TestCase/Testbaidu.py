@@ -6,32 +6,14 @@
 @file: Testbaidu
 @time: 2020/12/30 23:50
 @desc:
-              幸运女神保佑        永无BUG
- *
- *                      .::::.
- *                    .::::::::.
- *                   :::::::::::
- *                ..:::::::::::'
- *             '::::::::::::'
- *               .::::::::::
- *          '::::::::::::::..
- *               ..::::::::::::.
- *             ``::::::::::::::::
- *              ::::``:::::::::'        .:::.
- *             ::::'   ':::::'       .::::::::.
- *           .::::'      ::::     .:::::::'::::.
- *          .:::'       :::::  .:::::::::' ':::::.
- *         .::'        :::::.:::::::::'      ':::::.
- *        .::'         ::::::::::::::'         ``::::.
- *    ...:::           ::::::::::::'              ``::.
- *   ```` ':.          ':::::::::'                  ::::..
- *                      '.:::::'                    ':'````..
 """
+import sys
 
 import pytest
 from WebFrameWork.BasePage.Constant import Constants
 from WebFrameWork.PageObject.BaiduMainPage.MainPage import MainPage
 
+print("python 路径：", sys.path)
 
 class TestBaidu:
     """测试Baidu"""
@@ -42,7 +24,6 @@ class TestBaidu:
     @pytest.mark.parametrize("value", list(search_function.values())[2:])
     def test_research(self, value):
         """测试搜索功能"""
-        # 固定的，未找到如何不用传参——写死？？？？ TODO
         url = self.search_function['url']
         # 浏览器兼容性
         driver = Constants().driver(self.search_function['browser'])
@@ -52,3 +33,4 @@ class TestBaidu:
 
 if __name__ == "__main__":
     pytest.main()
+
