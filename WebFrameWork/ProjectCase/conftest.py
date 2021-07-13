@@ -9,6 +9,12 @@
 
 """
 
+import pytest
 
+
+
+@pytest.fixture(scope='session')
+def sessionfix():
+    return "fixture"
 
 

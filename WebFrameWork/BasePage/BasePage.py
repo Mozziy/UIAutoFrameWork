@@ -147,6 +147,6 @@ class BasePage:
             alert.dismiss()
 
 
-    def java_script(self, src):
+    def java_script(self, js):
         """js定位执行"""
-        self.driver.excute_script(src)
+        self.driver.execute_script(js)

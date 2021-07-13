@@ -1,11 +1,18 @@
 # Baidu项目
 
 # 首页搜索功能
-MainPage:
+MainPage1:
   input_loc: {id: kw}
   click_loc: {id: su}
   search_sum: {xpath: '//*[@class="nums_text"]'}
 
+MainPage2:
+  input_loc: {id: sb_form_q}
+  click_loc: {id: sb_form_go}
+  search_sum: {xpath: '//*[@class="sb_count"]'}
 
-
+MainPage3:
+  input_loc: {id: input}
+  click_loc: {xpath: '//*[@class="skin-search-button"]'}
+  search_sum: {xpath: '//*[@class="nums"]'}
 
