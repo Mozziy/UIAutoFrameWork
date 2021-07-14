@@ -49,7 +49,7 @@ class TestBaidu:
         url = self.test_data['search2']['url']
         # 浏览器兼容性
         expect_value = MainPage(self.driver).search_function(value, url, "MainPage2")
-        assert "条结果" in expect_value, "页面搜索失败！"
+        assert "Results" in expect_value, "页面搜索失败！"
 
     @pytest.mark.sosearch
     @pytest.mark.run(order=1)

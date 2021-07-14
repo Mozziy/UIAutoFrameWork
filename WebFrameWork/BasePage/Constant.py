@@ -53,6 +53,8 @@ class Constants:
             chrome_options = Options()
             # 添加启动参数
             chrome_options.add_argument('--headless')
+            chrome_options.add_argument('--no-sandbox')
+            chrome_options.add_argument('--disable-dev-shm-usage')
         else:
             chrome_options = None
         if hasattr(webdriver, broswer):
