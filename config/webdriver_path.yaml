@@ -1,2 +1,2 @@
-chrome: /usr/local/bin/chromedriver
+chrome: /usr/local/python/lib/python3.8/site-packages/chromedriver
 
