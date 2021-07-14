@@ -23,7 +23,7 @@ class TestBaidu:
         try:
             runenv = os.environ["using_headless"]
         except:
-            runenv = None
+            runenv = True
         self.driver = Constants().driver(self.test_data['search1']['browser'], runenv=runenv)
 
     def teardown(self):
