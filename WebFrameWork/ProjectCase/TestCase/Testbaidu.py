@@ -21,8 +21,10 @@ class TestBaidu:
     def setup(self):
         print('set  up ----')
         try:
+            # jenkins参数配置--是否无界面运行
             runenv = os.environ["using_headless"]
         except:
+            # 没有配置using_headless，默认打开浏览器运行
             runenv = False
         self.driver = Constants().driver(self.test_data['search1']['browser'], runenv=runenv)
 
