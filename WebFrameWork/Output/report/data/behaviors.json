@@ -1,44 +1,56 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "test_research[selenium]",
-    "uid" : "ae9a47b72b269a25",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1617813431049,
-      "stop" : 1617813461215,
-      "duration" : 30166
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'selenium'" ]
-  }, {
-    "name" : "test_research[元宵节]",
-    "uid" : "ccbe4abd46e7d2c5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1617813461218,
-      "stop" : 1617813478339,
-      "duration" : 17121
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'元宵节'" ]
-  }, {
-    "name" : "test_research[元旦节]",
-    "uid" : "5a57ba9bc47302b4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1617813478342,
-      "stop" : 1617813491868,
-      "duration" : 13526
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'元旦节'" ]
+    "name" : "browser search function",
+    "children" : [ {
+      "name" : "test_skip",
+      "uid" : "6600740be29d72f6",
+      "parentUid" : "57fad1213a7c2f11814803c948282ea5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1626419643624,
+        "stop" : 1626419643624,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test fixture",
+      "children" : [ {
+        "name" : "test_fixture",
+        "uid" : "26f9c0de25a5c432",
+        "parentUid" : "476c05feaf82cd0034a7e49a872a6192",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626419643664,
+          "stop" : 1626419643664,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "476c05feaf82cd0034a7e49a872a6192"
+    }, {
+      "name" : "注册失败",
+      "children" : [ {
+        "name" : "test_register_failure",
+        "uid" : "ce9a559c5319f841",
+        "parentUid" : "e5797cb9b863a22a0ccc9348b1e87bec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626419643665,
+          "stop" : 1626419643665,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5797cb9b863a22a0ccc9348b1e87bec"
+    } ],
+    "uid" : "57fad1213a7c2f11814803c948282ea5"
   } ],
   "name" : "behaviors"
 }

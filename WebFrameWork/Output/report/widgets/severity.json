@@ -1,31 +1,31 @@
 [ {
-  "uid" : "ae9a47b72b269a25",
-  "name" : "test_research[selenium]",
+  "uid" : "26f9c0de25a5c432",
+  "name" : "test_fixture",
   "time" : {
-    "start" : 1617813431049,
-    "stop" : 1617813461215,
-    "duration" : 30166
+    "start" : 1626419643664,
+    "stop" : 1626419643664,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5a57ba9bc47302b4",
-  "name" : "test_research[元旦节]",
+  "uid" : "ce9a559c5319f841",
+  "name" : "test_register_failure",
   "time" : {
-    "start" : 1617813478342,
-    "stop" : 1617813491868,
-    "duration" : 13526
+    "start" : 1626419643665,
+    "stop" : 1626419643665,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ccbe4abd46e7d2c5",
-  "name" : "test_research[元宵节]",
+  "uid" : "6600740be29d72f6",
+  "name" : "test_skip",
   "time" : {
-    "start" : 1617813461218,
-    "stop" : 1617813478339,
-    "duration" : 17121
+    "start" : 1626419643624,
+    "stop" : 1626419643624,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 } ]

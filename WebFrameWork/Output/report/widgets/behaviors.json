@@ -1,4 +1,15 @@
 {
-  "total" : 3,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "57fad1213a7c2f11814803c948282ea5",
+    "name" : "browser search function",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
 }

@@ -1,24 +1,24 @@
 {
-  "uid" : "ae9a47b72b269a25",
-  "name" : "test_research[selenium]",
-  "fullName" : "TestCase.Testbaidu.TestBaidu#test_research",
-  "historyId" : "a4f96ac7ff5e637c3bc5fbbbd7f55736",
+  "uid" : "6600740be29d72f6",
+  "name" : "test_skip",
+  "fullName" : "TestCase.Testbaidu.TestBaidu#test_skip",
+  "historyId" : "d0a0cb7a80540adf3e03dd943cf00017",
   "time" : {
-    "start" : 1617813431049,
-    "stop" : 1617813461215,
-    "duration" : 30166
+    "start" : 1626419643624,
+    "stop" : 1626419643624,
+    "duration" : 0
   },
-  "description" : "测试搜索功能",
-  "descriptionHtml" : "<p>测试搜索功能</p>\n",
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 本迭代不涉及",
+  "statusTrace" : "('/Users/yangxing/work/UIAutoFrameWork/WebFrameWork/ProjectCase/TestCase/Testbaidu.py', 71, 'Skipped: 本迭代不涉及')",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1617813431008,
-      "stop" : 1617813431049,
-      "duration" : 41
+      "start" : 1626419643626,
+      "stop" : 1626419643663,
+      "duration" : 37
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,6 +31,15 @@
   } ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "feature",
+    "value" : "browser search function"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='本迭代不涉及')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
     "name" : "parentSuite",
     "value" : "TestCase"
   }, {
@@ -41,10 +50,10 @@
     "value" : "TestBaidu"
   }, {
     "name" : "host",
-    "value" : "Albertz.local"
+    "value" : "MacBook-Pro"
   }, {
     "name" : "thread",
-    "value" : "17804-MainThread"
+    "value" : "6101-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -58,10 +67,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "value",
-    "value" : "'selenium'"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -69,8 +75,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "run(order=2)", "@pytest.mark.skip(reason='本迭代不涉及')" ]
   },
-  "source" : "ae9a47b72b269a25.json",
-  "parameterValues" : [ "'selenium'" ]
+  "source" : "6600740be29d72f6.json",
+  "parameterValues" : [ ]
 }

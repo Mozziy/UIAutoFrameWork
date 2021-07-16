@@ -8,11 +8,11 @@
 @desc:
 """
 
-import pytest, os
+import pytest, os, allure
 from WebFrameWork.BasePage.Constant import Constants
 from WebFrameWork.PageObject.BaiduMainPage.MainPage import MainPage
 
-
+@allure.feature("browser search function")
 class TestBaidu:
     """测试Baidu"""
 
@@ -73,10 +73,25 @@ class TestBaidu:
     def test_skip(self):
         print("直接跳过不执行")
 
+    @allure.story("test fixture")
     def test_fixture(self, sessionfix):
         fixture = "fixture"
         assert sessionfix == fixture
 
+    @allure.story("注册失败")
+    def test_register_failure(self):
+        with allure.step("输入用户名"):
+            print("输入用户名")
+
+        with allure.step("输入密码"):
+            print("输入密码")
+
+        with allure.step("再次输入密码"):
+            print("再次输入密码")
+
+        print("点击注册")
+        with allure.step("注册失败"):
+            print("注册失败")
 
 if __name__ == "__main__":
     pytest.main()
